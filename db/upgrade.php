@@ -84,6 +84,7 @@ function xmldb_attendanceregister_upgrade($oldversion) {
             $dbman->rename_field($table, $field, 'onlinesess');
         }
 
+        upgrade_mod_savepoint(true, 2013020604, 'attendanceregister');
     }
 
     if ( $oldversion < 2013040605 ) {
