@@ -185,7 +185,7 @@ function attendanceregister_update_sessions_from_id($registers, $fromid) {
 function get_max_users_registers_logouts() {
     global $DB;
 
-    $sql = "select max(logout) logout, register, userid from {attendanceregister_session} group by register, userid";
+    $sql = "select CONCAT(register, '_', userid) as fakeid, max(logout) logout, register, userid from {attendanceregister_session} group by register, userid";
     $maxusersregisterslogouts = $DB->get_records_sql($sql, []);
 
     $structure = [];
