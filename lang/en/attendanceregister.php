@@ -238,4 +238,5 @@ $string['privacy:metadata:attendanceregister_session:comments'] = 'Offline sessi
 $string['privacy:metadata:attendanceregister_session:addedbyuserid'] = 'If the offline session is inserted by another user, this is the related userid';
 $string['myattendanceregistersessions'] = 'My attendance register sessions';
 $string['myattendanceregisteraggregates'] = 'My attendance register aggregates values';
+$string['privacy:metadata:attendanceregister_log_dump:userid'] = 'The userid';
 

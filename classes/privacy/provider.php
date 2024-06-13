@@ -66,6 +66,13 @@ class provider implements
         'privacy:metadata:attendanceregister_session'
         );
 
+        $items->add_database_table(
+            'attendanceregister_log_dump',
+            [
+            'userid' => 'privacy:metadata:attendanceregister_log_dump:userid',
+            ],
+            'privacy:metadata:attendanceregister_log_dump'
+            );
         return $items;
     }
 
