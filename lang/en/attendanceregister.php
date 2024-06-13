@@ -226,7 +226,8 @@ $string['privacy:metadata:attendanceregister_aggregate:lastsessionlogout'] = 'La
 
 $string['privacy:metadata:attendanceregister_lock'] = 'Locks on user\'s attendance register during recalculation';
 $string['privacy:metadata:attendanceregister_lock:userid'] = 'In order to recalculate the user\'s register, we store the session\'s userid. This data is temporary and is deleted after the session recalculation is completed';
-
+$string['privacy:metadata:attendanceregister_log_dump'] = 'Keeps track of the attendance register logs';
+$string['privacy:metadata:attendanceregister_log_dump:userid'] = 'The userid';
 $string['privacy:metadata:attendanceregister_session'] = 'Keeps track of the user\'s sessions';
 $string['privacy:metadata:attendanceregister_session:login'] = 'The login timestamp';
 $string['privacy:metadata:attendanceregister_session:logout'] = 'The logout timestamp';
@@ -238,5 +239,4 @@ $string['privacy:metadata:attendanceregister_session:comments'] = 'Offline sessi
 $string['privacy:metadata:attendanceregister_session:addedbyuserid'] = 'If the offline session is inserted by another user, this is the related userid';
 $string['myattendanceregistersessions'] = 'My attendance register sessions';
 $string['myattendanceregisteraggregates'] = 'My attendance register aggregates values';
-$string['privacy:metadata:attendanceregister_log_dump:userid'] = 'The userid';
 
